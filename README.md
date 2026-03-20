@@ -1,5 +1,5 @@
 # QR-Code-Paster
-A background running python script, which which converts a copied qr-code to text on pasting using ctrl + q for Windows or command + q for mac.
+A background running python script, which which converts a copied qr-code to text on pasting using ctrl + q for Windows or command + shift + q for mac.
 
 ## Prerequisites
 You will need Python installed on your system. Once installed, you need to install the required libraries.
