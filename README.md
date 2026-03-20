@@ -28,7 +28,7 @@ macOS requires a slightly different approach to run Python scripts silently in t
 4. Enter the path to your Python executable and the script. It should look something like this:
 > /usr/local/bin/python3 /path/to/your/qr_paster.py &
 
-(You can find your python path by typing which python3 in the terminal).
+(You can find your python path by typing `which python3` in the terminal).
 
 5.  Save the Automator app (e.g., as "QRPaster").
 6.  Go to System Settings > General > Login Items.
