@@ -42,7 +42,11 @@ def on_activate():
     process_qr_clipboard()
 
 def main():
-    hotkey = '<ctrl>+q' 
+    if platform.system() == 'Darwin':  # macOS
+        hotkey = '<cmd>+<shift>+q'
+    else:  # Windows
+        hotkey = '<ctrl>+q'
+        
     print(f"QR Paster is running in the background. Press {hotkey} to decode and paste.")
     
     # Listen for the hotkey
